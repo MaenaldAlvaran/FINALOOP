@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maenald Alvaran</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- SIDEBAR -->
+     <nav class="side-bar disable" id="side-bar">
+        <!-- modal button -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class='bx bx-x' ></i></a>
+
+        <!-- Picture and Name -->
+        <div class="pic">
+            <img src="normalimg.jpg" alt="">
+            <p id="name">Maenald Alvaran</p>
+            <p id="description">Web Developer & Illustrator</p>
+        </div>
+
+        <!-- navigations -->
+        <div class="Nav-list" id="Nav-list">
+            <a href="#Home"><i class='bx bxs-home'></i> Home</a>
+            <a href="#About"><i class='bx bxs-user'></i> About Me</a>
+            <a href="#Work"><i class='bx bxs-briefcase' ></i> Previous Works</a>
+            <a href="#Contact"><i class='bx bxs-envelope' ></i> Contact</a>
+        </div>
+
+
+        <!-- division line -->
+        <div class="line"></div>
+
+        <div class="logo">
+            <a href="https://www.facebook.com/maenald.alvaran.1" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="https://x.com/RYUJi_3618" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/minald_0/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="mailto: alvaranmaenald@gmail.com"><i class='bx bxs-envelope' ></i></a>
+        </div>
+     </nav>
+
+
+
+
+
+
+
+
+
+    <!-- HOME PAGE -->
+    <div class="Home" id="home">
+        <!-- open navbar -->
+        <button class="openbtn" id="open-btn" onclick="openNav()"><i class='bx bx-menu' ></i></button>
+        
+    
+        <!-- Home content -->
+        <div class="Home-content " id="Home">
+            <div class="text-home reveal">
+                <h1>Hello, I'm <span>Maenald</span></h1>
+                <h3>Web Developer & Illustrator</h3>
+                <p>I create beautiful, creative, functional and responsive websites that help business grow and succeed online</p>
+                <div class="home-btn">
+                    <a href="#Work"><input id="workbtn" type="button" value="Check my Works"></a>
+
+                    <a href="#Contact"><input id="contactbtn" type="button" value="Contact Me"></a>
+                </div>
+            </div>
+
+    
+                <img class="reveal" src="translucent.png" alt="">
+
+    
+        </div>
+
+
+
+
+
+
+        <!-- about ccontent -->
+        <div class="About" id="About">
+            <h1>ABOUT ME</h1>
+
+            <div class="main-about reveal ">
+                <!-- img -->
+                
+                
+                <!-- description -->
+                <div class="text">
+                    <h2>Who am I?</h2>
+                    <p>My name is Maenald Alvaran. I am 21 and currently studying for a Bachelor of Science in Computer Engineering at the National College of Science and Technology. I am an Aspiring Web developer and/or a Front End designer. I create responsive and eye catching web designs that will attract the users attention. I am also a self-taught digital Illustrator with over 3 years of experience which can help me in designing any websites </p>
+                </div>
+            </div>
+
+            <div class="lower-about reveal ">
+                <div class="skill">
+                    <h1>My Skills</h1>
+
+                    <h3>Html</h3>
+                        <span class="bar"><span class="Html"></span></span>
+
+                    <h3>Css</h3>
+                        <span class="bar"><span class="Css"></span></span>
+
+                    <h3>Javascript</h3>
+                        <span class="bar"><span class="Javascript"></span></span>
+
+                    <h3>PHP</h3>
+                        <span class="bar"><span class="PHP"></span></span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+
+        <!-- work -->
+         <div class="Work" id="Work">
+            <span>My Recent Works</span>
+
+            <div class="work-container">
+
+                <!-- front end -->
+                <div class="work-box reveal ">
+                    <div class="color1"><i class='bx bx-desktop' ></i></div>
+                    <p>FRONT END PROJECT</p>
+                    <input type="button" value="Front End" id="Frontendbtn">
+                </div>
+
+
+                <!-- fullstack -->
+                <div class="work-box reveal ">
+                    <div class="color2"><i class='bx bx-desktop' ></i><i class='bx bx-code-alt' ></i></div>
+                    <p>FULL STACK PROJECT</p>
+                    <form action="https://maenaldalvaran.github.io/Maenald_Alvaran_BSCOE12A1/" target="_blank">
+                        <input type="submit" value="Full Stack" id="Fullstackbtn">
+                    </form>
+                </div>
+
+
+                <!-- art -->
+                <div class="work-box reveal ">
+                    <div class="color3"><i class='bx bxs-palette' ></i></div>
+                    <p>DIGITAL ART WORKS</p>
+                    <input type="button" value="See my Artworks" id="artworkbtn">
+
+                </div>
+
+            </div>
+
+            <!-- modal of art works -->
+            <div class="artcontainer  " id="artcontainer">
+                    <button id="left"> &#10094; </button>
+                    <button id="right"> &#10095; </button>
+                    <input type="button" value="&times;" id="closebtn" >
+                <div class="art-content" id="art-content">
+                    <!-- content -->
+                    <img src="coolcats.jpg" alt="coolcats">
+                    <img src="early.jpg" alt="early">
+                    <img src="eons.jpg" alt="eons">
+                    <img src="GRAPES.jpg" alt="GRAPES">
+                    <img src="inferno.jpg" alt="inferno">
+                    <img src="lumio.jpg" alt="lumio">
+                    <img src="oc.jpeg" alt="oc">
+                    <img src="scare.jpg" alt="scare">
+                    <img src="skull.jpg" alt="skull">
+                    <img src="snack.jpg" alt="snack">
+                </div>
+            </div>
+
+
+            <!-- modal of front end -->
+             <div class="frontContainer" id="frontContainer">
+                <input type="button" value="&times;" id="frontclosebtn" >
+                <div class="front-content" id="front-content">
+                    
+                    <div class="recipe">
+                        <a href="https://maenaldalvaran.github.io/Recipe-Frontend/" target="_blank"><img src="recipe.png" alt=""><br></a>
+                        <p>RECIPE WEBSITE(front end)</p>
+                    </div>
+
+                    <div class="library">
+                        <a href="https://maenaldalvaran.github.io/eLIBRARY/" target="_blank"><img src="library.png" alt=""></a>
+                        <p>LIBRARY WEBSITE(front end)</p>
+                    </div>
+
+                    <div class="personal">
+                        <a href="https://maenaldalvaran.github.io/Maenald_Alvaran_BSCOE12A1/" target="_blank"><img src="personal.png" alt=""></a>
+                        <p>PERSONAL WEBSITE(front end)</p>
+                    </div>
+
+                </div>
+             </div>
+
+         </div>
+
+
+
+         <div id="Contact" class="Contact">
+            <span>GET IN TOUCH</span>
+
+            <div class="contact-container">
+
+                <div class="contactMe reveal ">
+                    <h1>Contact Information</h1>
+                    <div class="location">
+                        <i class='bx bxs-map' ></i>
+                        <p><span>Location</span> <br>Naic, Cavite, Philippines</p>
+                    </div>
+
+                    <div class="Email">
+                        <i class='bx bxs-envelope' ></i>
+                        <p><span>Email</span> <br>alvaranmaenald@gmail.com</p>
+                    </div>
+
+                    <div class="Phone">
+                        <i class='bx bxs-phone' ></i>
+                        <p><span>Email</span> <br>+63 992 399 1078</p>
+                    </div>
+
+                    <h1>Follow me!</h1>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/maenald.alvaran.1" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="https://x.com/RYUJi_3618" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.instagram.com/minald_0/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                    </div>  
+                </div>
+
+                <div class="contactForm reveal ">
+                    <!-- rightside -->
+                     <form action="https://api.web3forms.com/submit" method="POST">
+                        
+                        <input type="hidden" name="access_key" value="854c37ab-759d-4bcd-ac0f-0dc2aa5e9a7f">
+
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder=" ex.Juan Dela Cruz" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Enter your message here... Sir, I can actually recieve the message, i can send it to you if you need proof. Thanks" required></textarea>
+
+                        <button type="submit">Submit</button>
+                     </form>
+                </div>
+            </div>
+
+         </div>
+         <div class="footer-line"></div>
+
+         <footer>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h1>Maenald Alvaran</h1>
+                    <h3>Web Developer & Illustrator</h3>
+                    <p>&copy; 2023 John Portfolio. All rights reserved.</p>
+                </div>
+
+                <div class="footer-logo">
+                    <a href="https://www.facebook.com/maenald.alvaran.1" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="https://x.com/RYUJi_3618" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/minald_0/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+            </div>
+            </footer>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
